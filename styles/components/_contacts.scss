@@ -1,0 +1,60 @@
+.contacts {
+  padding: 60px 0;
+  background-color: #f3f6f6;
+
+  &__container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+    color: rgb(68, 75, 88);
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 40px;
+    color: rgb(178, 181, 187);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &__item {
+    font-style: normal;
+  }
+
+  &__phone {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: rgb(68, 75, 88);
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  &__address {
+    display: block;
+    margin-bottom: 40px;
+    color: rgb(68, 75, 88);
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+.social {
+  display: flex;
+  gap: 20px;
+
+  &__link {
+    display: block;
+    width: 48px;
+    height: 48px;
+    padding: 13px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(14, 90, 76);
+    border-radius: 100%;
+  }
+}

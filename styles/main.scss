@@ -1,0 +1,19 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/hero";
+@import "./components/catalog";
+@import "./components/about";
+@import "./components/quiz";
+@import "./components/team";
+@import "./components/faq";
+@import "./components/contacts";
+@import "./components/inst";
+@import "./components/footer";
+@import "./components/nouislider.min.css";
+
